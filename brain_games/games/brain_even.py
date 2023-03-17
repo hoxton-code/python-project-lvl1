@@ -10,13 +10,9 @@ def welcome_user(description):
 
 
 def make_question():
-    random_number = generate_number()
+    random_number = randint(1, 100)
     answer = string(f'Question: {random_number}\nYour answer: ')
     return random_number, answer
-
-
-def generate_number():
-    return randint(1, 100)
 
 
 def is_even(number):
