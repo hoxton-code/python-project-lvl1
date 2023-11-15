@@ -7,3 +7,5 @@
 ## Usage
 ### Brain Even
 [![asciicast](https://asciinema.org/a/IHng5bF3YML1LqF4KO46VwhZu.svg)](https://asciinema.org/a/IHng5bF3YML1LqF4KO46VwhZu)
+### Brain Calc
+[![asciicast](https://asciinema.org/a/tC5bkeNh84lIYSP9qNUBd03ZO.svg)](https://asciinema.org/a/tC5bkeNh84lIYSP9qNUBd03ZO)
