@@ -6,8 +6,7 @@ def run(game):
     username = string('Welcome to the Brain Games! \nMay I have your name? ')
     print(game.DESCRIPTION)
     while number_rounds > 0:
-        question, answer = game.make_question()
-        correct_answer = game.is_correct_answer(question)
+        correct_answer, answer = game.make_question()
         if answer == correct_answer:
             number_rounds -= 1
             print('Correct')
