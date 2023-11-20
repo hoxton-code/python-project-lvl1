@@ -12,10 +12,16 @@ def create_progression():
     progression = list(range(start_number, end_number, step))
     progression.pop(step)
     progression.insert(step, '..')
-    return str(progression), step
+    result = ''
+    for i in progression:
+        result += str(i) + ' '
+    result.rstrip()
+    return result, step
 
 
 def make_question():
     progression, correct_answer = create_progression()
     answer = string(f'Question: {progression}\nYour answer: ')
     return str(correct_answer), answer
+
+print(make_question())
