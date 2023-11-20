@@ -10,8 +10,8 @@ def create_progression():
     start_number = randint(1, length_progression)
     end_number = start_number + length_progression
     progression = list(range(start_number, end_number, step))
-    correct_answer = progression.pop(step)
-    progression.insert(step, '..')
+    correct_answer = progression.pop(step - 1)
+    progression.insert(step - 1, '..')
     result = ''
     for i in progression:
         result += str(i) + ' '
