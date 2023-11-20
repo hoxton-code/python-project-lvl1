@@ -12,7 +12,7 @@ def create_progression():
     progression = list(range(start_number, end_number, step))
     progression.pop(step)
     progression.insert(step, '..')
-    return progression, step
+    return str(progression), step
 
 
 def make_question():
