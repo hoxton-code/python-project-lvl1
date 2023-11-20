@@ -23,5 +23,3 @@ def make_question():
     progression, correct_answer = create_progression()
     answer = string(f'Question: {progression}\nYour answer: ')
     return str(correct_answer), answer
-
-print(make_question())
