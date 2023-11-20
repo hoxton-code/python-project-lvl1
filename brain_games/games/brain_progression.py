@@ -10,13 +10,13 @@ def create_progression():
     start_number = randint(1, length_progression)
     end_number = start_number + length_progression
     progression = list(range(start_number, end_number, step))
-    progression.pop(step)
+    correct_answer = progression.pop(step)
     progression.insert(step, '..')
     result = ''
     for i in progression:
         result += str(i) + ' '
     result.rstrip()
-    return result, step
+    return result, correct_answer
 
 
 def make_question():
