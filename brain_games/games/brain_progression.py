@@ -15,7 +15,7 @@ def create_progression():
     result = ''
     for i in progression:
         result += str(i) + ' '
-    result.rstrip()
+    result.strip()
     return result, correct_answer
 
 
