@@ -19,7 +19,7 @@ def make_question():
     number1 = randint(1, 100)
     number2 = randint(1, 100)
     select_operator = choice(OPERATORS)
-    answer = string(f'Question: {number1} {select_operator} {number2}\
-    \nYour answer: ')
+    print(f'Question: {number1} {select_operator} {number2}')
+    answer = string('Your answer: ')
     correct_answer = check_expression(number1, number2, select_operator)
     return correct_answer, answer

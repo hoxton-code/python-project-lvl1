@@ -3,7 +3,8 @@ from prompt import string
 
 def run(game):
     number_rounds = 3
-    username = string('Welcome to the Brain Games! \nMay I have your name? ')
+    print('Welcome to the Brain Games!')
+    username = string('May I have your name? ')
     print(f'Hello, {username}!')
     print(game.DESCRIPTION)
     while number_rounds > 0:
